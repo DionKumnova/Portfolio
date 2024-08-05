@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="myStyles/stylesFirstPage.css">
+</head>
+<body onload="resetFields()">
+    <div id="centerpiece">
+        <label id="loginTitle">Welcome back</label>
+        <label id="info">This is a mock sign-in form. Enter any text in both fields to continue.</label>
+
+        <div class="input-container">
+            <div class="input-wrapper">
+                <img src="images/personIcon.png" alt="Name Logo" class="input-logo">
+                <input id="nameInput" type="text" placeholder="Enter name">
+            </div>
+        </div>
+
+        <div class="input-container">
+            <div class="input-wrapper">
+                <img src="images/passwordIcon.png" alt="Password Logo" class="input-logo">
+                <input id="passwordInput" type="password" placeholder="Enter password">
+            </div>
+        </div>
+
+        <button onclick= "validateAndNavigate()" id="loginButton" >Sign in</button>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
