@@ -27,7 +27,7 @@ function validateAndNavigate() {
     var passwordInput = document.getElementById('passwordInput').value;
     
     if (nameInput && passwordInput) {
-        window.location.href = '../mainpage.html';  
+        window.location.href = 'mainpage.html';  
     } else {
         alert('Please fill in both fields.');
     }
