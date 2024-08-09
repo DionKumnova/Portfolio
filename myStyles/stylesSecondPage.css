@@ -114,7 +114,7 @@ header .logos .uio-logo {
 }
 
 .portfolio h2 {
-    font-weight: normal; /* Set font weight to normal */
+    font-weight: normal; 
 }
 
 
@@ -124,7 +124,7 @@ header .logos .uio-logo {
     padding: 1%;  
     text-align: center;
     font-family: Arial, sans-serif;
-    margin-top: 0; /* Remove top margin to reduce space */
+    margin-top: 0; 
 }
 
 .projects .project {
@@ -132,13 +132,13 @@ header .logos .uio-logo {
     justify-content: center;
     align-items: center;
     margin-bottom: 4%; 
-    text-align: center; /* Center align text within project */
+    text-align: center; 
 }
 
 .projects .project .project-picture, .projects .project .project-textbox {
     margin: 2%;  
-    width: 48%;  /* Increased width */
-    max-width: 600px;  /* Increased max width */
+    width: 48%;  
+    max-width: 600px;  
     text-align: center;
 }
 
@@ -148,7 +148,7 @@ header .logos .uio-logo {
 .projects2 {
     text-align: center;
     font-family: Arial, sans-serif;
-    margin-top: 5%; /* Remove top margin to reduce space */
+    margin-top: 5%; 
     margin-left: 4%;
     margin-bottom: 2%;
 }
@@ -161,8 +161,8 @@ header .logos .uio-logo {
 }
 
 .projects2 .project2 .project-textbox2 {
-    width: 48%;  /* Increased width */
-    max-width: 600px;  /* Increased max width */
+    width: 48%;  
+    max-width: 600px;  
     text-align: left;
     font-size: 3em;
     padding-right: 3%;
@@ -179,8 +179,8 @@ header .logos .uio-logo {
 }
 
 .projects .project h3 {
-    font-size: 2em; /* Increased font size for project titles */
-    font-weight: normal; /* Removed bold style */
+    font-size: 2em; 
+    font-weight: normal; 
 }
 
 footer {
@@ -205,8 +205,8 @@ footer a {
     text-decoration: none;
 }
 
-/* Increase space between text in all paragraphs */
+
 p {
-    line-height: 1.8; /* Adjusted for desired spacing */
+    line-height: 1.8; 
     font-family: Arial, sans-serif;
 }
